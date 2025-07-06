@@ -40,7 +40,7 @@ Asegúrate de tener instalado [Node.js](https://nodejs.org/en/) y [npm](https://
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone https://github.com/tu-usuario/ConcursTiTo.git(https://github.com/tu-usuario/ConcursTiTo.git)
+    git clone https://github.com/Ernesto800/ConcursoReact.git
     cd ConcursTiTo
     ```
 
