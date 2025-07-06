@@ -33,6 +33,9 @@ Sigue estos pasos para poner en marcha ConcursTiTo en tu entorno local.
 
 Asegúrate de tener instalado [Node.js](https://nodejs.org/en/) y [npm](https://www.npmjs.com/) (que viene con Node.js) en tu máquina.
 
+
+### Inspirado en el Concursillo de illojuan
+
 ### Instalación
 
 1.  **Clona el repositorio:**
@@ -53,5 +56,3 @@ Para iniciar la aplicación en modo de desarrollo:
 ```bash
 npm start
 
-
-Inspirado en el Concursillo de illojuan
