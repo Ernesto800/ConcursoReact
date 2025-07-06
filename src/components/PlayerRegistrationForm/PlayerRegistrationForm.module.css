@@ -1,0 +1,90 @@
+
+.popupoverlay {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    z-index: 1000; 
+}
+
+.registrationformcontainer {
+    background-color: #333; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    max-width: 400px; 
+    width: 90%; 
+    position: relative; 
+}
+
+.registrationformcontainer h2 {
+    color: #00bcd4; 
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.playerform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.playernameinput {
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    outline: none; 
+}
+
+.playernameinput::placeholder {
+    color: #bbb;
+}
+
+.formbuttons {
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+
+.buttonMenu {
+    padding: 12px 25px; 
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.buttonMenu:hover {
+    background-color: #ffcc00;
+    color: black;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.submitbutton {
+    background-color: #4CAF50; 
+}
+
+.submitbutton:hover {
+    background-color: #45a049;
+}
+
+.cancelbutton {
+    background-color: #f44336;
+}
+
+.cancelbutton:hover {
+    background-color: #da190b;
+}
